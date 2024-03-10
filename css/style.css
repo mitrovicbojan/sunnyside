@@ -124,3 +124,33 @@ header {
 .img-box img {
   width: 100%;
 }
+
+.section-services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.service-container-left {
+  position: relative;
+}
+.service-container-left img {
+  width: 100%;
+}
+.service-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.heading-tertiary {
+  font-size: 4.8rem;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  color: hsl(212, 27%, 19%);
+  margin-bottom: 3.2rem;
+}
+
+.service-text .description {
+  font-size: 2rem;
+  text-align: center;
+}
