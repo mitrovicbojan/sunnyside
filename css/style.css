@@ -77,6 +77,7 @@ header {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  line-height: 0;
 }
 
 .text-box {
@@ -87,7 +88,7 @@ header {
 .heading-secondary {
   font-size: 7rem;
   font-family: "Fraunces", serif;
-
+  line-height: 1.2;
   margin-bottom: 6rem;
   color: hsl(212, 27%, 19%);
 }
@@ -131,6 +132,7 @@ header {
 }
 .service-container-left {
   position: relative;
+  line-height: 0;
 }
 .service-container-left img {
   width: 100%;

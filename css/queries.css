@@ -9,21 +9,23 @@
     font-size: 45%;
   }
   .heading-secondary {
-    font-size: 4rem;
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
   }
   .heading-tertiary {
     font-size: 3.2rem;
     margin-bottom: 2.2rem;
   }
   .description {
+    font-size: 2rem;
     line-height: 1.2;
+    margin-bottom: 4rem;
   }
 }
 
+/*800px*/
+
 @media (max-width: 50em) {
-  .container {
-    grid-template-columns: 1fr;
-  }
   .section-services {
     grid-template-columns: 1fr;
   }
