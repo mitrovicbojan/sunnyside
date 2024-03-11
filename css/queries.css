@@ -1,0 +1,30 @@
+@media (max-width: 82em) {
+  html {
+    font-size: 52%;
+  }
+}
+
+@media (max-width: 69em) {
+  html {
+    font-size: 45%;
+  }
+  .heading-secondary {
+    font-size: 4rem;
+  }
+  .heading-tertiary {
+    font-size: 3.2rem;
+    margin-bottom: 2.2rem;
+  }
+  .description {
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 50em) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .section-services {
+    grid-template-columns: 1fr;
+  }
+}
