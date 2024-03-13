@@ -69,4 +69,52 @@
 /* 735px*/
 
 @media (max-width: 57em) {
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+  .description {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+  .about-link {
+    font-size: 1.8rem;
+  }
+  .btn {
+    display: block;
+  }
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 200%;
+    left: 30%;
+    width: 50%;
+    height: 50rem;
+
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* hide nav */
+    opacity: 0;
+
+    pointer-events: none;
+
+    visibility: hidden;
+  }
+  .nav-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .main-nav-list {
+    flex-direction: column;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    color: hsl(213, 9%, 39%);
+  }
 }

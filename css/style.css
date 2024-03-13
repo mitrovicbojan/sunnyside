@@ -9,6 +9,8 @@ header {
   align-items: center;
   height: 9.6rem;
   padding: 0rem 4.8rem;
+  background-color: rgba(61, 190, 255, 255);
+  position: relative;
 }
 
 .main-nav-list {
@@ -47,6 +49,13 @@ header {
 .main-nav-link.nav-cta:active {
   background-color: rgba(149, 203, 247, 0.57);
   color: hsl(0, 0%, 100%);
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
 }
 /* SECTION HERO */
 
