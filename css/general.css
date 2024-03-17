@@ -25,6 +25,8 @@ The designs were created to the following widths:
 - Grayish blue: hsl(210, 4%, 67%)
 - White: hsl(0, 0%, 100%)
 - Red: rgba(255,116,98,255)
+-light-yellow: #fef0bf
+-light-pink: #ffddd5
 
 ## Typography
 
@@ -58,6 +60,7 @@ We provide the required social icons. But, if you prefer, you can use a font ico
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {

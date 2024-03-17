@@ -42,9 +42,9 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">About</a></li>
-          <li><a class="main-nav-link" href="#">Services</a></li>
-          <li><a class="main-nav-link" href="#">Projects</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#services">Services</a></li>
+          <li><a class="main-nav-link" href="#projects">Projects</a></li>
 
           <li><a class="main-nav-link nav-cta" href="#">Contact</a></li>
         </ul>
@@ -57,7 +57,7 @@
       <section class="section-hero">
         <div class="hero">
           <h1 class="heading-primary">We are creatives</h1>
-          <a href="#"
+          <a class="services-link" href="#services"
             ><svg
               class="arrow-icon"
               width="36"
@@ -83,7 +83,7 @@
       <!-- ABOUT SECTION -->
       <!-- ************* -->
 
-      <section class="section-about">
+      <section class="section-about" id="about">
         <div class="container">
           <div class="text-box">
             <h2 class="heading-secondary">Transform your brand</h2>
@@ -105,7 +105,7 @@
           <div class="img-box">
             <img
               src="./images/desktop/image-stand-out.jpg"
-              alt="Photo of an egg"
+              alt="Pink galss image"
             />
           </div>
           <div class="text-box">
@@ -116,7 +116,7 @@
               extend your brand in digital places.
             </p>
             <div class="about-btn">
-              <a class="about-link" href="#">Learn more</a>
+              <a class="about-link-pink" href="#">Learn more</a>
             </div>
           </div>
         </div>
@@ -125,9 +125,12 @@
       <!-- SERVICES SECTION -->
       <!-- ************* -->
 
-      <section class="section-services">
+      <section class="section-services" id="services">
         <div class="service-container-left">
-          <img src="./images/desktop/image-graphic-design.jpg" />
+          <img
+            src="./images/desktop/image-graphic-design.jpg"
+            alt="Cherries image"
+          />
           <div class="service-text">
             <h3 class="heading-tertiary">Graphic design</h3>
             <p class="description">
@@ -138,7 +141,10 @@
           </div>
         </div>
         <div class="service-container-left">
-          <img src="./images/desktop/image-photography.jpg" />
+          <img
+            src="./images/desktop/image-photography.jpg"
+            alt="Image of an orange"
+          />
           <div class="service-text">
             <h3 class="heading-tertiary">Photography</h3>
             <p class="description">
@@ -156,7 +162,11 @@
         <h4 class="header-testimonials">Client testimonials</h4>
         <div class="testimonials">
           <figure class="testimonial">
-            <img class="img-customer" src="./images/image-emily.jpg" />
+            <img
+              class="img-customer"
+              src="./images/image-emily.jpg"
+              alt="Image of Emily, marketing director"
+            />
             <blockquote class="testimonial-text">
               We put our trust in Sunnyside and they delivered, making sure our
               needs were met and deadlines were always hit.
@@ -165,7 +175,11 @@
             <p class="job-text">Marketing Director</p>
           </figure>
           <figure class="testimonial">
-            <img class="img-customer" src="./images/image-thomas.jpg" />
+            <img
+              class="img-customer"
+              src="./images/image-thomas.jpg"
+              alt="Image of Thomas, COO"
+            />
             <blockquote class="testimonial-text">
               Sunnyside’s enthusiasm coupled with their keen interest in our
               brand’s success made it a satisfying and enjoyable experience.
@@ -174,7 +188,11 @@
             <p class="job-text">Chief Operating Officer</p>
           </figure>
           <figure class="testimonial">
-            <img class="img-customer" src="./images/image-jennie.jpg" />
+            <img
+              class="img-customer"
+              src="./images/image-jennie.jpg"
+              alt="Image of Jennie, business owner"
+            />
             <blockquote class="testimonial-text">
               Incredible end result! Our sales increased over 400% when we
               worked with Sunnyside. Highly recommended!
@@ -184,12 +202,24 @@
           </figure>
         </div>
       </section>
-      <section class="section-gallery">
+      <section class="section-gallery" id="projects">
         <div class="gallery">
-          <img src="./images/desktop/image-gallery-milkbottles.jpg" />
-          <img src="./images/desktop/image-gallery-orange.jpg" />
-          <img src="./images/desktop/image-gallery-cone.jpg" />
-          <img src="./images/desktop/image-gallery-sugarcubes.jpg" />
+          <img
+            src="./images/desktop/image-gallery-milkbottles.jpg"
+            alt="Image of three milkbottles and clouds"
+          />
+          <img
+            src="./images/desktop/image-gallery-orange.jpg"
+            alt="image of an organge on a plate"
+          />
+          <img
+            src="./images/desktop/image-gallery-cone.jpg"
+            alt="image of cone in blue background"
+          />
+          <img
+            src="./images/desktop/image-gallery-sugarcubes.jpg"
+            alt="image of sugarcubes in pink background"
+          />
         </div>
       </section>
     </main>
@@ -209,15 +239,15 @@
           </svg>
         </a>
 
-        <nav class="main-nav">
-          <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="#">About</a></li>
-            <li><a class="main-nav-link" href="#">Services</a></li>
-            <li><a class="main-nav-link" href="#">Projects</a></li>
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li><a class="main-nav-link" href="#about">About</a></li>
+            <li><a class="main-nav-link" href="#services">Services</a></li>
+            <li><a class="main-nav-link" href="#projects">Projects</a></li>
           </ul>
         </nav>
         <ul class="social-links">
-          <a
+          <a class="social-link"
             ><svg
               class="social-icon"
               width="20"
@@ -230,7 +260,7 @@
               />
             </svg>
           </a>
-          <a
+          <a class="social-link"
             ><svg
               class="social-icon"
               width="20"
@@ -243,7 +273,7 @@
               />
             </svg>
           </a>
-          <a
+          <a class="social-link"
             ><svg
               class="social-icon"
               width="20"
@@ -256,7 +286,7 @@
               />
             </svg>
           </a>
-          <a
+          <a class="social-link"
             ><svg
               class="social-icon"
               width="20"
