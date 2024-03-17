@@ -145,6 +145,9 @@
     grid-template-columns: 1fr;
   }
 
+  .img-box:nth-child(2) {
+    grid-row: 1;
+  }
   .heading-secondary {
     padding: 8rem;
     font-size: 6.4rem;
@@ -176,6 +179,30 @@
   }
   .heading-secondary {
     font-size: 4.8rem;
-    padding: 6rem;
+    padding: 3rem;
+  }
+  .description {
+    padding: 0 2rem;
+    font-size: 2rem;
+  }
+  .heading-tertiary {
+    font-size: 2.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .service-text {
+    top: 50%;
+  }
+  .service-text .description {
+    padding: 0;
+  }
+  .main-nav {
+    width: 80%;
+    left: 10%;
+
+    transform: translateX(0%);
+  }
+  .testimonial-text {
+    padding: 0;
   }
 }
